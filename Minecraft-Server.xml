@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<Container>
+	<Name>Minecraft Server</Name>
+	<Overview>Minecraft </Overview>
+	<Support></Support>
+	<Description>Minecraft Server.  Change the port if you want it to be different ir if running multiple servers</Description>
+	<Registry>https://registry.hub.docker.com/u/itzg/minecraft-server/</Registry>
+	<Repository>itzg/minecraft-server</Repository>
+	<BindTime>true</BindTime>
+	<Privileged>false</Privileged>
+	<Networking>
+	<Mode>bridge</Mode>
+	<Publish>
+	<Port>
+	<HostPort>25565</HostPort>
+	<ContainerPort>25565</ContainerPort>
+	<Protocol>tcp</Protocol>
+	</Port>
+	</Publish>
+	</Networking>
+	<Environment>
+	<Variable>
+	<Name></Name>
+	<Value></Value>
+	</Variable>
+	</Environment>
+	<Data>
+	<Volume>
+	<HostDir>/mnt/user/Data/minecraft</HostDir>
+	<ContainerDir>/data</ContainerDir>
+	<Mode>rw</Mode>
+	</Volume>  
+	</Data>
+	<WebUI></WebUI>
+	<Banner></Banner>
+	<Icon></Icon>
+	</Container>
