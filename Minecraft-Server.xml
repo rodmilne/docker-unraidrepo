@@ -21,7 +21,7 @@
 	<Environment>
 	<Variable>
 	<Name>EULA</Name>
-	<Value>EULA=TRUE</Value>
+	<Value>TRUE</Value>
 	</Variable>
 	</Environment>
 	<Data>
