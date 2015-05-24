@@ -3,7 +3,13 @@
 	<Name>Minecraft MyAdmin Server</Name>
 	<Overview>Minecraft Myadmin Server</Overview>
 	<Support></Support>
-	<Description>Minecraft MyAdmin Server.  Change the port if you want it to be different ir if running multiple servers</Description>
+	<Description>Minecraft MyAdmin Server.  Change the port if you want it to be different ir if running multiple servers
+	Admin interface
+	 http://localhost:8080
+	 
+	userid/password
+	 admin/pass123
+	 </Description>
 	<Registry>https://registry.hub.docker.com/u/jchaney/mcmyadmin</Registry>
 	<Repository>jchaney/mcmyadmin</Repository>
 	<BindTime>true</BindTime>
@@ -36,7 +42,7 @@
 	<Mode>rw</Mode>
 	</Volume>  
 	</Data>
-	<WebUI></WebUI>
+	<WebUI>http://[IP]:[PORT:4000]/</WebUI>
 	<Banner></Banner>
 	<Icon></Icon>
 	</Container>
