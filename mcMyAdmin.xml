@@ -42,7 +42,7 @@
 	<Mode>rw</Mode>
 	</Volume>  
 	</Data>
-	<WebUI>http://[IP]:[PORT:4000]/</WebUI>
+	<WebUI>http://[IP]:[PORT:8080]/</WebUI>
 	<Banner></Banner>
 	<Icon></Icon>
 	</Container>
