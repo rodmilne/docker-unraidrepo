@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<Container>
+	<Name>Minecraft MyAdmin Server</Name>
+	<Overview>Minecraft Myadmin Server</Overview>
+	<Support></Support>
+	<Description>Minecraft MyAdmin Server.  Change the port if you want it to be different ir if running multiple servers</Description>
+	<Registry>https://registry.hub.docker.com/u/jchaney/mcmyadmin</Registry>
+	<Repository>jchaney/mcmyadmin</Repository>
+	<BindTime>true</BindTime>
+	<Privileged>false</Privileged>
+	<Networking>
+	<Mode>bridge</Mode>
+	<Publish>
+	<Port>
+	<HostPort>25565</HostPort>
+	<ContainerPort>25565</ContainerPort>
+	<Protocol>tcp</Protocol>
+	</Port>
+	<Port>
+	<HostPort>8080</HostPort>
+	<ContainerPort>8080</ContainerPort>
+	<Protocol>tcp</Protocol>
+	</Port>
+	</Publish>
+	</Networking>
+	<Environment>
+	<Variable>
+	<Name>EULA</Name>
+	<Value>TRUE</Value>
+	</Variable>
+	</Environment>
+	<Data>
+	<Volume>
+	<HostDir>/mnt/user/Data/minecraftadmin</HostDir>
+	<ContainerDir>/MCMA2_Linux_x86_64</ContainerDir>
+	<Mode>rw</Mode>
+	</Volume>  
+	</Data>
+	<WebUI></WebUI>
+	<Banner></Banner>
+	<Icon></Icon>
+	</Container>
