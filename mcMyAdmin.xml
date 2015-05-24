@@ -38,11 +38,11 @@
 	<Data>
 	<Volume>
 	<HostDir>/mnt/user/Data/minecraftadmin</HostDir>
-	<ContainerDir>/MCMA2_Linux_x86_64</ContainerDir>
+	<ContainerDir>/config</ContainerDir>
 	<Mode>rw</Mode>
 	</Volume>  
 	</Data>
 	<WebUI>http://[IP]:[PORT:8080]/</WebUI>
 	<Banner></Banner>
-	<Icon></Icon>
+	<Icon>http://crafthosting.eu/images/mcmyadmin-big.png</Icon>
 	</Container>
