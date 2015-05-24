@@ -38,7 +38,7 @@
 	<Data>
 	<Volume>
 	<HostDir>/mnt/user/Data/minecraftadmin</HostDir>
-	<ContainerDir>/config</ContainerDir>
+	<ContainerDir>/home/minecraft/mcmyadmin</ContainerDir>
 	<Mode>rw</Mode>
 	</Volume>  
 	</Data>
